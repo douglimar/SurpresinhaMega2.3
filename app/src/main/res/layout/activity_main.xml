@@ -6,7 +6,7 @@
     android:background="@color/colorMegasena"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.douglimar.surpresinhamega.MainActivity">
+    tools:context="br.com.douglimar.surpresinha_megasena.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,7 +70,7 @@
         android:id="@+id/adViewMain"
         ads:adSize="BANNER"
         android:layout_margin="6dp"
-        ads:adUnitId="@string/banner_ad_unit_TESTE"
+        ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

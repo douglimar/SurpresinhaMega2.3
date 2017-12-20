@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:id="@+id/linearConfigurador"
     android:background="@color/colorMegasena"
-    tools:context="br.com.douglimar.surpresinhamega.MainActivity">
+    tools:context="br.com.douglimar.surpresinha_megasena.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -94,7 +94,7 @@
     <com.google.android.gms.ads.AdView
         android:id="@+id/adViewConfigurador"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_TESTE"
+        ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_width="match_parent"
         android:layout_margin="6dp"
         android:layout_height="wrap_content"/>

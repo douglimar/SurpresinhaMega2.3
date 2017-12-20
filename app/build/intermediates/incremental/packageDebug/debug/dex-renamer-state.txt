@@ -1,4 +1,19 @@
-#Fri Dec 08 23:00:07 BRST 2017
-base.0=C\:\\Users\\dmoraes\\AndroidStudioProjects\\SurpresinhaMega23\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Mon Dec 11 23:23:21 BRST 2017
+path.1=classes.dex
 path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.5=/home/douglimar/workspace/AndroidStudioProjects/SurpresinhaMega2.3/app/build/intermediates/transforms/dexMerger/debug/13
+base.4=/home/douglimar/workspace/AndroidStudioProjects/SurpresinhaMega2.3/app/build/intermediates/transforms/dexMerger/debug/16
+base.3=/home/douglimar/workspace/AndroidStudioProjects/SurpresinhaMega2.3/app/build/intermediates/transforms/dexMerger/debug/11
+base.2=/home/douglimar/workspace/AndroidStudioProjects/SurpresinhaMega2.3/app/build/intermediates/transforms/dexMerger/debug/14
+base.1=/home/douglimar/workspace/AndroidStudioProjects/SurpresinhaMega2.3/app/build/intermediates/transforms/dexMerger/debug/12
+base.0=/home/douglimar/workspace/AndroidStudioProjects/SurpresinhaMega2.3/app/build/intermediates/transforms/dexMerger/debug/15
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex

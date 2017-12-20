@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.douglimar.surpresinhamega"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="br.com.douglimar.surpresinha_megasena"
+    android:versionCode="4"
+    android:versionName="2.3" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -15,31 +15,29 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="br.com.douglimar.surpresinhamega.permission.C2D_MESSAGE"
+        android:name="br.com.douglimar.surpresinha_megasena.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="br.com.douglimar.surpresinhamega.permission.C2D_MESSAGE" />
+    <uses-permission android:name="br.com.douglimar.surpresinha_megasena.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_surpresinha_mega"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_surpresinha_mega_rounded"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="br.com.douglimar.surpresinhamega.MainActivity"
+            android:name="br.com.douglimar.surpresinha_megasena.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="br.com.douglimar.surpresinhamega.ResultActivity"
+            android:name="br.com.douglimar.surpresinha_megasena.ConfiguradorActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="br.com.douglimar.surpresinhamega.ConfiguradorActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="br.com.douglimar.surpresinhamega.Splash"
+            android:name="br.com.douglimar.surpresinha_megasena.Splash"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +45,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="br.com.douglimar.surpresinhamega.WebviewActivity" />
+        <activity android:name="br.com.douglimar.surpresinha_megasena.WebviewActivity" />
+        <activity
+            android:name="br.com.douglimar.surpresinha_megasena.ResultActivity"
+            android:label="@string/title_activity_result2"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="android.support.VERSION"
@@ -90,7 +92,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="br.com.douglimar.surpresinhamega" />
+                <category android:name="br.com.douglimar.surpresinha_megasena" />
             </intent-filter>
         </receiver>
         <!--
@@ -107,7 +109,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="br.com.douglimar.surpresinhamega.firebaseinitprovider"
+            android:authorities="br.com.douglimar.surpresinha_megasena.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

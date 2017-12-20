@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash"
-    tools:context="br.com.douglimar.surpresinhamega.Splash">
+    tools:context="br.com.douglimar.surpresinha_megasena.Splash">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -11,7 +10,18 @@
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
-    <FrameLayout
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splash"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:fitsSystemWindows="true"
+        tools:ignore="UselessParent"/>
+
+<!--    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
@@ -20,11 +30,12 @@
             android:id="@+id/fullscreen_content_controls"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/splash"
             android:layout_gravity="bottom|center_horizontal"
             android:orientation="horizontal"
             tools:ignore="UselessParent">
 
         </LinearLayout>
     </FrameLayout>
-
+-->
 </FrameLayout>

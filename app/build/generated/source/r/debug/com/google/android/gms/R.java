@@ -15,26 +15,26 @@ public final class R {
     public static final class id {
         public static final int auto = 0x7f080024;
         public static final int center = 0x7f080031;
-        public static final int none = 0x7f080076;
-        public static final int normal = 0x7f080077;
-        public static final int radio = 0x7f080083;
-        public static final int text = 0x7f0800af;
-        public static final int text2 = 0x7f0800b0;
-        public static final int toolbar = 0x7f0800ba;
-        public static final int wrap_content = 0x7f0800d0;
+        public static final int none = 0x7f080075;
+        public static final int normal = 0x7f080076;
+        public static final int radio = 0x7f080082;
+        public static final int text = 0x7f0800ae;
+        public static final int text2 = 0x7f0800af;
+        public static final int toolbar = 0x7f0800b9;
+        public static final int wrap_content = 0x7f0800cf;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f090007;
     }
     public static final class string {
-        public static final int common_google_play_services_unknown_issue = 0x7f0c0028;
-        public static final int s1 = 0x7f0c0048;
-        public static final int s2 = 0x7f0c0049;
-        public static final int s3 = 0x7f0c004a;
-        public static final int s4 = 0x7f0c004b;
-        public static final int s5 = 0x7f0c004c;
-        public static final int s6 = 0x7f0c004d;
-        public static final int s7 = 0x7f0c004e;
+        public static final int common_google_play_services_unknown_issue = 0x7f0c0026;
+        public static final int s1 = 0x7f0c0040;
+        public static final int s2 = 0x7f0c0041;
+        public static final int s3 = 0x7f0c0042;
+        public static final int s4 = 0x7f0c0043;
+        public static final int s5 = 0x7f0c0044;
+        public static final int s6 = 0x7f0c0045;
+        public static final int s7 = 0x7f0c0046;
     }
     public static final class style {
         public static final int Theme_IAPTheme = 0x7f0d0136;
